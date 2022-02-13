@@ -1,4 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:ital,wght@0,300;0,700;1,400&family=Playfair+Display:wght@700&family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:ital,wght@0,300;0,700;1,400&family=Playfair+Display:wght@700&family=Roboto&display=swap');*/
 body {
-    background-color: white;
+    background-color: bisque;
+    margin: 0;
 }
+#landing {
+    background-image: url("img/langingBackground.png");
+    height: 100vh;
+    /*width: 100vw;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+nav {
+    padding: 20px 50px;
+    background-color: white;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: inline-block;
+}
+.categories a {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 45px;
+    text-decoration: none;
+    color: black;
+
+}
+.categories a:hover {
+    text-decoration: underline;
+}
+.categories a:last-of-type {
+    margin: 0;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.buttons button {
+    /*width: 100px;*/
+    /*height: 43px;*/
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+    transition: all 600ms;
+}
+#logInButton {
+    padding: 12px 32px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 24px;
+}
+#signUpButton {
+    padding: 12px 20px;
+    background-color: #007C89;
+    border: 1px solid #007C89;
+    /*border-color: #007C89;*/
+    color: white;
+}
+#logInButton:hover {
+    border: 1px solid #007C89;
+    color: #007C89;
+}
+#signUpButton:hover {
+    background-color: #692340;
+    border: 1px solid #692340;
+}
+/*#logo {*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*}*/
