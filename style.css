@@ -3,19 +3,10 @@ body {
     background-color: bisque;
     margin: 0;
 }
-#landing {
-    background-image: url("img/langingBackground.png");
-    height: 100vh;
-    /*width: 100vw;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-}
 nav {
-    padding: 20px 50px;
+    /*padding: 20px 50px;*/
+    padding: 1.5% 3%;
     background-color: white;
-    /*display: block;*/
-    /*margin: 0 auto;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,11 +14,14 @@ nav {
 nav div {
     display: inline-block;
 }
+.categories {
+    width: 40%;
+}
 .categories a {
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 400;
-    margin-right: 45px;
+    margin-right: 9%;
     text-decoration: none;
     color: black;
 
@@ -38,6 +32,9 @@ nav div {
 .categories a:last-of-type {
     margin: 0;
 }
+.logoMobile {
+    display: none;
+}
 .logo {
     position: absolute;
     left: 50%;
@@ -46,8 +43,6 @@ nav div {
     transform: translate(-50%, -50%);
 }
 .buttons button {
-    /*width: 100px;*/
-    /*height: 43px;*/
     cursor: pointer;
     font-size: 14px;
     font-family: "Roboto";
@@ -64,7 +59,6 @@ nav div {
     padding: 12px 20px;
     background-color: #007C89;
     border: 1px solid #007C89;
-    /*border-color: #007C89;*/
     color: white;
 }
 #logInButton:hover {
@@ -75,7 +69,140 @@ nav div {
     background-color: #692340;
     border: 1px solid #692340;
 }
-/*#logo {*/
-/*    display: block;*/
-/*    margin: 0 auto;*/
-/*}*/
+
+
+/* . . . */
+#landing {
+    background-image: url("img/langingBackground.png");
+    height: 112vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navMenu {
+    float: right;
+    padding: 60px;
+}
+.navMenu a {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-left: 28px;
+}
+.navMenu a:nth-of-type(1) {
+    color: #692340;
+}
+.navMenu a:hover {
+    text-decoration: underline;
+}
+.navMenu a:nth-of-type(1):hover {
+    text-decoration: none;
+}
+.navMenu hr {
+    width: 62px;
+    background-color: #692340;
+    color: #692340;
+    border: none;
+    height: 1pt;
+    position: relative;
+    right: 151px;
+    top: -5px;
+}
+/* . . . */
+.landingMainContent {
+    width: 36%;
+    padding: 3.5% 10%;
+    color: #692340;
+}
+.landingMainContent h1 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 74px;
+    letter-spacing: 1px;
+    margin-bottom: 8%;
+}
+.landingMainContent p {
+    width: 116%;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 28px;
+}
+#joinButton {
+    margin-top: 5%;
+    padding: 4% 8%;
+    font-family: "Roboto";
+    font-size: 15px;
+    border: none;
+    background-color: #692340;
+    color: white;
+    cursor: pointer;
+    transition: all 600ms;
+}
+#joinButton:hover {
+    background-color: #a50334;
+}
+.landingMainContent p:nth-of-type(2) {
+    font-size: 15px;
+}
+
+@media (max-width: 820px) {
+    nav {
+        background-color: white;
+    }
+    .categories {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logoMobile {
+        display: inline-block;
+    }
+    #logInButton, #signUpButton {
+        padding: 10px 10px;
+        border-radius: 8px;
+    }
+    /* . . . */
+    #landing {
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+    }
+    .navMenu {
+        /*width: 100%;*/
+        padding: 20px;
+        float: none;
+        /*text-align: center;*/
+        display: flex;
+        justify-content: space-around;
+        /*padding: 15px;*/
+    }
+    .navMenu a {
+        margin: 0;
+    }
+    .navMenu hr {
+        display: none;
+    }
+    .landingMainContent {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+    .landingMainContent h1 {
+        font-size: 40px;
+        line-height: normal;
+        text-align: center;
+    }
+    .landingMainContent p {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    #joinButton {
+        display: block;
+        margin: 50px auto 0 auto;
+    }
+}
