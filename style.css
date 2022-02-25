@@ -149,7 +149,7 @@ nav div {
 
 /* Benefit Section */
 #benefitSection {
-    padding: 5% 0;
+    padding: 6% 0;
 }
 #benefitSection h1 {
     font-family: "Roboto";
@@ -247,106 +247,70 @@ nav div {
     margin: 0;
 }
 
-
-
-
-@media (max-width: 820px) {
-    nav {
-        background-color: white;
-    }
-    .categories {
-        display: none;
-    }
-    .logo {
-        display: none;
-    }
-    .logoMobile {
-        display: inline-block;
-    }
-    #logInButton, #signUpButton {
-        padding: 10px 10px;
-        border-radius: 8px;
-    }
-    /* . . . */
-    #landing {
-        width: 100%;
-        background-size: cover;
-        height: 100vh;
-    }
-    .navMenu {
-        /*width: 100%;*/
-        padding: 20px;
-        float: none;
-        /*text-align: center;*/
-        display: flex;
-        justify-content: space-around;
-        /*padding: 15px;*/
-    }
-    .navMenu a {
-        margin: 0;
-    }
-    .navMenu hr {
-        display: none;
-    }
-    .landingMainContent {
-        width: 100%;
-        margin: 0;
-        box-sizing: border-box;
-        padding: 25px;
-    }
-    .landingMainContent h1 {
-        font-size: 40px;
-        line-height: normal;
-        text-align: center;
-    }
-    .landingMainContent p {
-        font-size: 18px;
-        width: 100%;
-        text-align: center;
-    }
-    #joinButton {
-        display: block;
-        margin: 50px auto 0 auto;
-    }
-    /*  Benefit Section  */
-    #benefitSection {
-        padding: 5%;
-    }
-    #benefitSection h1 {
-        font-size: 40px;
-        margin-bottom: 15%;
-    }
-    .benefitsMainTextContainer p {
-        width: 100%;
-    }
-    #benefits {
-        display: block;
-    }
-    .benefit {
-        width: 100%;
-        margin-bottom: 4%;
-    }
-    /*  Customer Journey Section  */
-    #customerJourneySection {
-        /*display: block;*/
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 8%;
-        padding-bottom: 8%;
-    }
-    #quantityOfCustomers {
-        width: 100%;
-    }
-    #quantityOfCustomers h1 {
-        font-size: 70px;
-        margin-top: 5%;
-    }
-    #quantityOfCustomers h2 {
-        margin: 5% 0;
-        font-size: 28px;
-    }
-    #customerJourneySection img {
-        width: 100%;
-        height: auto;
-    }
+/* Journey Path Section */
+#journeyPathSection {
+    font-family: "Roboto";
+    color: #692340;
+}
+#journeyPathDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 0 35%;*/
+    text-align: center;
+}
+#journeyPathDescription h1 {
+    font-size: 54px;
+    width: 30%;
+    /*padding: 0 35%;*/
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+#journeyPathDescription p {
+    width: 45%;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0;
+}
+.journeyPathBlock {
+    margin-top: 10.5%;
+}
+.journeyPathBlock:first-of-type {
+    margin-top: 8.5%;
+}
+.journeyPathBlock:last-of-type {
+    margin-bottom: 8.5%;
+}
+.journeyPathBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    padding-left: 19.5%;
+}
+.journeyPathBlockText {
+    width: 48%;
+    margin-bottom: 2%;
+    /*margin-right: 12%;*/
+}
+/*.journeyPathBlock img {*/
+/*    width: 340px;*/
+/*    height: 380px;*/
+/*}*/
+.journeyPathBlockText h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.journeyPathBlockText p {
+    font-size: 16px;
+}
+.journeyPathBlock p:first-of-type {
+    margin-bottom: 5%;
+}
+.journeyPathBlockText p:nth-of-type(2) {
+    margin-left: 4%;
+}
+.journeyPathBlockText p:last-child {
+    color: #a50334;
+    text-decoration: underline;
 }
