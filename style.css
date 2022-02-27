@@ -279,7 +279,7 @@ nav div {
     margin-top: 8.5%;
 }
 .journeyPathBlock:last-of-type {
-    margin-bottom: 8.5%;
+    margin-bottom: 6%;
 }
 .journeyPathBlock {
     display: flex;
@@ -313,4 +313,55 @@ nav div {
 .journeyPathBlockText p:last-child {
     color: #a50334;
     text-decoration: underline;
+}
+
+
+/* Partners Section */
+#partnersSection {
+    font-family: 'Roboto';
+    color: #692340;
+    padding: 0 5%;
+    padding-bottom: 3%;
+}
+#partnersSection h1 {
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.sliderContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.sliderText {
+    width: 26%;
+    position: relative;
+    right: 5%;
+}
+.arrowLeft, .arrowRight {
+    width: 20px;
+    height: 38px;
+}
+.sliderText h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 22%;
+    line-height: 46px;
+}
+.sliderCircles {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 44.5%;
+}
+#arrowRight {
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+#arrowLeft {
+    position: absolute;
+    left: 10%;
+    cursor: pointer;
 }
