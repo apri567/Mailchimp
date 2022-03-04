@@ -126,7 +126,54 @@
     .journeyPathBlockText p:nth-of-type(2) {
         text-align: left;
     }
-    /*.journeyPathBlockText h2 {*/
-    /*    text-align: center;*/
+   /*  Partners Section  */
+    #partnersSection {
+        padding: 0;
+    }
+    #partnersSection h1 {
+        font-size: 30px;
+    }
+    .slider {
+        padding: 6% 0;
+    }
+    .sliderContent {
+        width: 100%;
+        /*display: block;*/
+        align-items: center;
+        flex-direction: column;
+    }
+    #sliderImage {
+        width: 40%;
+    }
+    .sliderText {
+        width: 70%;
+        position: relative;
+        margin-top: 5%;
+        text-align: center;
+        left: 0.5%;
+        /*transform: translate(-50%, 0)*/
+    }
+    /*#arrowLeft {*/
+    /*    position: absolute;*/
+    /*    left: 1%;*/
     /*}*/
+    /*#arrowRight {*/
+    /*    position: absolute;*/
+    /*    left: 1%;*/
+    /*}*/
+    .sliderText h2 {
+        font-size: 17px;
+        line-height: normal;
+        margin: 0;
+    }
+    .sliderCircles {
+        padding: 0 40%;
+    }
+    /*  Join Section  */
+    #joinSection {
+        padding: 18% 8%;
+    }
+    #joinSection p {
+        margin-bottom: 12%;
+    }
 }
