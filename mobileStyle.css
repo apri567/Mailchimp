@@ -193,4 +193,22 @@
         font-size: 14px;
         padding: 8% 12%;
     }
+    /*  Second Join Section  */
+    #secondJoinSection {
+        flex-direction: column;
+        padding-top: 13%;
+        padding-bottom: 13%;
+    }
+    #secondJoinSection h1 {
+        width: 100%;
+        font-size: 35px;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-bottom: 8%;
+    }
+    #secondJoinSection a {
+        padding: 4% 6%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
 }

@@ -424,6 +424,12 @@ nav div {
 .businessTip {
     width: 28%;
 }
+.businessTip img {
+    transition: all 600ms;
+}
+.businessTip:hover img {
+    transform: scale(1.1);
+}
 .businessTip a {
     font-size: 24px;
     font-weight: 700;
@@ -478,4 +484,47 @@ nav div {
 .seeBenefitsButton:hover, .seeToolsButton:hover {
     color: #a50334;
     border: 2px solid #a50334;
+}
+
+/* Second Join Section */
+#secondJoinSection {
+    background-color: #692340;
+    font-family: "Roboto";
+    padding: 5% 8%;
+    padding-bottom: 8%;
+    color: #FBEECA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#secondJoinSection h1 {
+    font-size: 74px;
+    line-height: 74px;
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+#secondJoinSection h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 3%;
+    text-align: center;
+}
+#secondJoinSection a {
+    padding: 1.7% 3.5%;
+    background-color: #FBEECA;
+    color: #692340;
+    transition: all 600ms;
+}
+#secondJoinSection a:hover {
+    background-color: #ffe4c6;
+    color: #a50334;
+}
+#secondJoinSection p {
+    font-size: 14px;
+    margin-top: 2%;
 }
