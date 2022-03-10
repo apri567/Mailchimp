@@ -151,16 +151,7 @@
         margin-top: 5%;
         text-align: center;
         left: 0.5%;
-        /*transform: translate(-50%, 0)*/
     }
-    /*#arrowLeft {*/
-    /*    position: absolute;*/
-    /*    left: 1%;*/
-    /*}*/
-    /*#arrowRight {*/
-    /*    position: absolute;*/
-    /*    left: 1%;*/
-    /*}*/
     .sliderText h2 {
         font-size: 17px;
         line-height: normal;
@@ -175,5 +166,31 @@
     }
     #joinSection p {
         margin-bottom: 12%;
+    }
+    /*  Inspiration Section  */
+    #inspirationSectionHeadingContainer {
+        display: block;
+        margin: 0;
+    }
+    #inspirationSectionHeadingContainer h1 {
+        width: 100%;
+    }
+    #businessTips {
+        display: block;
+    }
+    .businessTip {
+        width: 100%;
+        margin-bottom: 14%;
+    }
+    #inspirationSectionButtons {
+        justify-content: space-between;
+        padding: 0;
+    }
+    .inspirationSectionButton {
+        width: 48%;
+    }
+    .seeBenefitsButton, .seeToolsButton {
+        font-size: 14px;
+        padding: 8% 12%;
     }
 }

@@ -55,7 +55,7 @@ function changeContentToLast () {
         changeCircle()
     }
 }
-
+d
 function changeCircle () {
     let currentCircle = document.getElementById('circle' + currentPage);
     if (currentPage > 1) {

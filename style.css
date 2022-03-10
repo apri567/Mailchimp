@@ -397,3 +397,85 @@ nav div {
     color: #a50334;
     border: 2px solid #a50334;
 }
+
+/* Inspiration Section */
+#inspirationSection {
+    padding: 5% 7%;
+    padding-bottom: 12%;
+    font-family: "Roboto";
+    color: #692340;
+}
+#inspirationSectionHeadingContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7%;
+}
+#inspirationSectionHeadingContainer h1 {
+    width: 40%;
+    font-size: 50px;
+    /*line-height: 55;*/
+}
+#businessTips {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+}
+.businessTip {
+    width: 28%;
+}
+.businessTip a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #692340;
+    text-decoration: none;
+}
+.businessTip a:hover {
+    text-decoration: underline;
+}
+.businessTip h1 {
+    font-size: 27px;
+}
+.businessTip p {
+    font-size: 18px;
+    line-height: 29px;
+}
+#inspirationSectionButtons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4%;
+}
+.inspirationSectionButton {
+    width: 16%;
+    text-align: center;
+    transition: all 600ms;
+}
+.inspirationSectionButton h1 {
+    font-size: 24px;
+    margin-bottom: 25%;
+}
+.inspirationSectionButton:hover {
+    color: #a50334;
+}
+.seeBenefitsButton {
+    /*width: 20%;*/
+    padding: 10% 25%;
+    border: 2px solid #692340;
+    font-size: 15px;
+    color: #692340;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 600ms;
+}
+.seeToolsButton {
+    padding: 10% 22%;
+    border: 2px solid #692340;
+    color: #692340;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 600ms;
+}
+.seeBenefitsButton:hover, .seeToolsButton:hover {
+    color: #a50334;
+    border: 2px solid #a50334;
+}
