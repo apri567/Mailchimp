@@ -519,6 +519,7 @@ nav div {
     background-color: #FBEECA;
     color: #692340;
     transition: all 600ms;
+    text-decoration: none;
 }
 #secondJoinSection a:hover {
     background-color: #ffe4c6;
@@ -527,4 +528,55 @@ nav div {
 #secondJoinSection p {
     font-size: 14px;
     margin-top: 2%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #EFEEEA;
+    padding: 7% 14%;
+}
+
+/* Footer Navigation Section */
+
+#footerNavigationSection {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+.footerNavigation {
+    width: 16.6%;
+}
+.footerNavigation h1 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17%;
+}
+.footerNavigation a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 10%;
+    color: black;
+}
+.footerNavigation a:hover {
+    text-decoration: underline;
+}
+.mailchimpPresents {
+    margin-top: 10%;
+}
+.mailchimpCourier {
+    margin-top: 42%;
+}
+.mailchimpPresents p {
+    font-size: 12px;
+    line-height: 19.5px;
+}
+.footerLogo {
+    width: 15%;
+}
+.mailchimpCourier p {
+    margin-top: 12%;
+    font-size: 13px;
+    line-height: 19.5px;
 }

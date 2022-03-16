@@ -211,4 +211,18 @@
         margin-top: 4%;
         margin-bottom: 4%;
     }
+    /*  Footer  */
+    footer {
+        padding: 1% 2.5%;
+    }
+    /*  Footer Navigation Section  */
+    .footerNavigation:last-of-type {
+        display: none;
+    }
+    .footerNavigation h1 {
+        font-size: 14px;
+    }
+    .footerNavigation a {
+        font-size: 12px;
+    }
 }
