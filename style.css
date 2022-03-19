@@ -334,7 +334,10 @@ nav div {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2%;
-
+}
+#sliderImage {
+    width: 456px;
+    height: 570px;
 }
 .sliderText {
     width: 26%;
