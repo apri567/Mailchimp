@@ -19,7 +19,7 @@ function changeContentToNext () {
                 sliderHeading.innerHTML = 'And brand\'s needs and other documentation notice has ways allowed platforms should to mailchimp’s explore our robust solutions ‘enterprise’ of. Marketing us in evolve unique support take with ';
                 break;
             case '4':
-                sliderHeading.innerHTML = 'Notice other needs marketing ways in explore to unique and of. Solutions should ‘enterprise’ has documentation evolve with take robust brand\'s and platforms mailchimp’s support our us allowed';
+                sliderHeading.innerHTML = 'го в майн';
                 break;
             case '5':
                 sliderHeading.innerHTML = 'Unique allowed support evolve solutions should marketing notice explore documentation and our robust needs brand\'s to other in with has ‘enterprise’ platforms mailchimp’s us take ways and of.';
@@ -45,7 +45,7 @@ function changeContentToLast () {
                 sliderHeading.innerHTML = 'And brand\'s needs and other documentation notice has ways allowed platforms should to mailchimp’s explore our robust solutions ‘enterprise’ of. Marketing us in evolve unique support take with ';
                 break;
             case '4':
-                sliderHeading.innerHTML = 'Notice other needs marketing ways in explore to unique and of. Solutions should ‘enterprise’ has documentation evolve with take robust brand\'s and platforms mailchimp’s support our us allowed';
+                sliderHeading.innerHTML = 'го в майн';
                 break;
             case '5':
                 sliderHeading.innerHTML = 'Unique allowed support evolve solutions should marketing notice explore documentation and our robust needs brand\'s to other in with has ‘enterprise’ platforms mailchimp’s us take ways and of.';
